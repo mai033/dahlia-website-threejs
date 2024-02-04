@@ -20,7 +20,7 @@ function About() {
 
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>
-          A esults-driven software engineer with expertise in 𝘑𝘢𝘷𝘢𝘚𝘤𝘳𝘪𝘱𝘵,
+          A results-driven software engineer with expertise in 𝘑𝘢𝘷𝘢𝘚𝘤𝘳𝘪𝘱𝘵,
           𝘛𝘺𝘱𝘦𝘚𝘤𝘳𝘪𝘱𝘵, 𝘙𝘦𝘢𝘤𝘵, 𝘙𝘦𝘥𝘶𝘹, 𝘕𝘰𝘥𝘦/𝘌𝘹𝘱𝘳𝘦𝘴𝘴.𝘫𝘴, and 𝘚𝘘𝘓/𝘕𝘰𝘚𝘘𝘓 databases.
         </p>
       </div>
