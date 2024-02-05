@@ -42,7 +42,15 @@ import jest from '../assets/icons/jest.svg';
 import aws from '../assets/icons/aws.svg';
 import graphql from '../assets/icons/graphql.svg';
 import webpack from '../assets/icons/webpack.svg';
-import vercel  from '../assets/icons/vercel.svg';
+import vercel from '../assets/icons/vercel.svg';
+
+import eye from '../assets/icons/eye.svg';
+import calendar from '../assets/icons/calendar.svg';
+import cat from '../assets/icons/cat.svg';
+import cat1 from '../assets/icons/cat1.svg';
+import ai from '../assets/icons/ai.svg';
+import sale from '../assets/icons/sale.svg';
+import website from '../assets/icons/website.svg';
 
 export const skills = [
   {
@@ -189,6 +197,14 @@ export const skills = [
 
 export const experiences = [
   {
+    title: 'AI Trainer',
+    company_name: 'Scale AI',
+    icon: scale,
+    iconBg: '#fff',
+    date: '2024 - Present',
+    points: ['LLM training on software engineering.'],
+  },
+  {
     title: 'Software Engineer',
     company_name: 'Kube VX',
     icon: react,
@@ -200,14 +216,6 @@ export const experiences = [
       "Improved scalability by leveraging MongoDB's low-latency queries for efficient performance and accommodating growing data demands.",
       'Engineered the AI Kubernetes Assistant, achieving a 95% accuracy.',
     ],
-  },
-  {
-    title: 'AI Trainer',
-    company_name: 'Scale AI',
-    icon: scale,
-    iconBg: '#fff',
-    date: '2023 - Present',
-    points: ['LLM training on software engineering.'],
   },
   {
     title: 'Office Manager',
@@ -232,62 +240,63 @@ export const socialLinks = [
   {
     name: 'GitHub',
     iconUrl: github,
-    link: 'https://github.com/YourGitHubUsername',
+    link: 'https://github.com/mai033',
   },
   {
     name: 'LinkedIn',
     iconUrl: linkedin,
-    link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+    link: 'https://www.linkedin.com/in/dahlia-mai',
   },
 ];
 
 export const projects = [
   {
-    iconUrl: pricewise,
+    iconUrl: eye,
     theme: 'btn-back-red',
-    name: 'Amazon Price Tracker',
+    name: 'Observability Platform',
     description:
-      'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-    link: 'https://github.com/adrianhajdin/pricewise',
+      'Developed a web application that analyzes Kubernetes clusters, featuring an AI assistant.',
+    link: 'https://www.kubevx.com',
   },
   {
-    iconUrl: threads,
+    iconUrl: calendar,
     theme: 'btn-back-green',
-    name: 'Full Stack Threads Clone',
+    name: 'Meeting Scheduler',
     description:
-      'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-    link: 'https://github.com/adrianhajdin/threads',
+      'Created a a meeting scheduling platform that allows everyone to add their availability on a grid, enabling users to identify the slot that best overlaps.',
+    link: 'https://rendez-view.vercel.app/',
   },
   {
-    iconUrl: car,
+    iconUrl: cat1,
     theme: 'btn-back-blue',
-    name: 'Car Finding App',
+    name: 'Pet Adoption Platform',
     description:
-      'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-    link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+      'Designed and built an online, searchable, database of animals who need a home. We help connect pets in need with foster and forever homes.',
+    link: 'https://github.com/MeowMatch/MeowMatch',
   },
   {
-    iconUrl: snapgram,
+    // iconUrl: snapgram,
+    iconUrl: ai,
     theme: 'btn-back-pink',
-    name: 'Full Stack Instagram Clone',
+    name: 'AI Tutor',
     description:
-      'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-    link: 'https://github.com/adrianhajdin/social_media_app',
+      'Built a revolutionary app for academic success, empowering users to create personalized AI tutors that serve as tailored learning assistants powered by cutting-edge AI technology.',
+    link: 'https://github.com/Floppy-Floppy-Floppy-Sea-Spider/Cerebella',
   },
   {
-    iconUrl: estate,
+    iconUrl: website,
     theme: 'btn-back-black',
-    name: 'Real-Estate Application',
+    name: 'Portfolio Website',
     description:
-      'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-    link: 'https://github.com/adrianhajdin/projects_realestate',
+      'Deployed a portfolio website using Next.js, Tailwind, and Vercel.',
+    link: 'https://dahliamai.vercel.app/',
   },
   {
-    iconUrl: summiz,
+    iconUrl: sale,
     theme: 'btn-back-yellow',
-    name: 'AI Summarizer Application',
+    name: 'Sales Management Tool',
     description:
-      'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-    link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+      'Developed a web application that helps keep track of the sales process.',
+    link: 'https://sales-hub-omega.vercel.app/',
   },
 ];
